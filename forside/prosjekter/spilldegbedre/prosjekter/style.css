@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #254C91;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 50px;
+
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #1f407a;
+    color: white;
+}
+
+#logo {
+  width: 170px;
+  height: 25px;
+  float: right;
+}
+
+h1 {
+  float: left;
+  margin-left: 240px;
+}
+
+div.skjema {
+  float: left;
+  margin-left: 240px;
+  clear: both;
+}
+
+#overskrift {
+  font-family: "Oswald", "Roboto", sans-serif;
+}
+
+form {
+  font-size: 20px;
+}
+
+textarea {
+  resize: none;
+  font-size: 15px;
+}
+
+input {
+  font-size: 15px;
+  width: 200px;
+}
+
+#lagre {
+  width: 100px;
+  font-size: 15px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+}
+
+select {
+  width: 200px;
+  font-size: 15px;
+}
+
+select.tid {
+  width: 97px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div.kalender {
+
+}
+
+div.måned {
+  padding: 30px 25px;
+  width: 400px;
+  background: #254C91;
+  text-align: center;
+  color: white;
+  height: 15px;
+}
+
+.måned ul {
+  margin-top: -12px;
+  padding: 0;
+}
+
+.måned li ul {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.måned .forrige {
+  float: left;
+  padding-top: 10px;
+}
+
+.måned .neste {
+  float: right;
+  padding-top: 10px;
+}
+
+.ukedager {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #aec4ea;
+  width: 450px;
+}
+
+.ukedager li {
+  display: inline-block;
+  width: 13.3%;
+  color: black;
+  text-align: center;
+}
+
+.dager {
+  padding: 10px 0;
+  background: #d8e6f3;
+  margin: 0;
+  width: 450px;
+}
+
+.dager li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.3%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: black;
+}
+
+.dager li .active {
+  padding: 5px;
+  background: #254C91;
+  color: white !important
+}
+
+.dager li .annenmåned {
+  color: white;
+}
+
+li.annenmåned {
+  color: grey;
+}

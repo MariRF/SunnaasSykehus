@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #254C91;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 50px;
+
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #1f407a;
+    color: white;
+}
+
+#logo {
+  width: 170px;
+  height: 25px;
+  float: right;
+}
+
+div.prosjektforside {
+  float: left;
+  margin-top: 0px;
+  margin-left: 240px;
+}
+
+div.prosjekt {
+  margin-left: 0px;
+  height: 300px;
+  width: 500px;
+  background-color: #d8e6f3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  text-align: center;
+}
+
+a.prosjekter {
+  text-decoration: none;
+}
+
+#prosjektnavn {
+  padding-top: 125px;
+  text-decoration: none;
+  color: black;
+}
+
+div.prosjektinfo {
+  margin-left: 530px;
+  margin-top: -300px;
+  height: 300px;
+  width: 500px;
+  background-color: #d8e6f3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  text-align: center;
+  float: left;
+}
+
+#prosjektinfo {
+  padding-top: 108px;
+  text-decoration: none;
+  color: black;
+}
+
+a.loggføringer {
+  text-decoration: none;
+}
+
+#overskrift {
+  font-family: "Oswald", "Roboto", sans-serif;
+}

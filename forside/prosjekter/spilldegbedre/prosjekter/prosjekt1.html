@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spill deg bedre</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <ul class="navigation">
+      <!--<li><img id="logo" src="bilder/sunnaaslogomedhvitkant.jpg" alt="Logo" style="width:217px;height:35px;"></li>-->
+      <li><a href="../../../index.html">Forside</a></li>
+      <li><a href="../prosjektforside.html">Tilbake</a></li>
+      <li><a href="../../../profil/minprofil.html">Min profil</a></li>
+      <li><a href="../../../mineprosjekter/mineprosjekter.html">Mine prosjekter</a></li>
+      <li><a href="../../../alleprosjekter/alleprosjekter.html">Alle prosjekter</a></li>
+      <li><a href="../../../alleansatte/alleansatte.html">Alle ansatte</a></li>
+      <li><a href="../../../../Login2/login.html">Logg ut</a></li>
+    </ul>
+
+    <img id="logo" src="../../../bilder/sunnaas_logo.jpg" alt="logo">
+
+    <h1 id="overskrift">Spill deg bedre</h1>
+
+    <div class="skjema">
+      <form>
+        Oppgave:<br>
+        <select name="oppgaver">
+          <option value="-">-</option>
+          <option value="møte">Møte</option>
+          <option value="pasientarbeid">Pasientarbeid</option>
+          <option value="feltarbeid">Feltarbeid</option>
+          <option value="individuelt arbeid">Individuelt arbeid</option>
+          <option value="annet">Annet</option>
+        </select>
+        <br><br>
+        Tid brukt:<br>
+        <!--<input id="tid" type="time" name="usr_time">-->
+        <!--<input type="text" name="timer">-->
+        <select class="tid" name="timer">
+          <option value="-">-</option>
+          <option value="1">1 time</option>
+          <option value="2">2 timer</option>
+          <option value="3">3 timer</option>
+          <option value="4">4 timer</option>
+          <option value="5">5 timer</option>
+          <option value="6">6 timer</option>
+          <option value="7">7 timer</option>
+          <option value="8">8 timer</option>
+        </select>
+
+        <select class="tid" name="kvarter">
+          <option value="-">-</option>
+          <option value="15">15 minutter</option>
+          <option value="30">30 minutter</option>
+          <option value="45">45 minutter</option>
+        </select><br><br>
+        Dato:<br>
+        <div class="kalender">
+          <div class="måned">
+            <ul>
+              <li class="forrige">&#10094;</li>
+              <li class="neste">&#10095;</li>
+              <li>
+                November<br>
+                <span style="font-size:18px">2017</span>
+              </li>
+            </ul>
+          </div>
+          <ul class="ukedager">
+            <li>Man</li>
+            <li>Tir</li>
+            <li>Ons</li>
+            <li>Tors</li>
+            <li>Fre</li>
+            <li>Lør</li>
+            <li>Søn</li>
+          </ul>
+
+          <ul class="dager">
+            <!-- bruk span i stedet for class="annenmåned" -->
+            <li class="annenmåned">30</li>
+            <li class="annenmåned">31</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><span class="active">10</span></li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li class="annenmåned">1</li>
+            <li class="annenmåned">2</li>
+            <li class="annenmåned">3</li>
+          </ul>
+        </div>
+        <br>
+
+        Deltagere:<br>
+        <input type="text" name="deltagere"><br><br>
+        Kommentar:<br>
+        <textarea name="kommentar" rows="15" cols="70"></textarea>
+        <br>
+        <input id="lagre" type="submit" value="Lagre">
+      </form>
+    </div>
+  </body>
+</html>

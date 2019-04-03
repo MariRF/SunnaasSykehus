@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #254C91;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 50px;
+
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #1f407a;
+    color: white;
+}
+
+#logo {
+  width: 170px;
+  height: 25px;
+  float: right;
+}
+
+div.profil {
+  margin-left: 240px;
+  margin-top: 20px;
+  float: left;
+  height: 173px;
+  width: 500px;
+}
+
+.profil h3 {
+  margin-left: 180px;
+  margin-top: 5px;
+}
+
+#profilbilde {
+  border-radius: 50%;
+  width: 150px;
+  length: 150px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#ansattnavn {
+  display: block;
+  margin-top: -130px;
+  margin-left: 180px;
+}
+
+div.kontaktinfo {
+  float: left;
+  margin-top: 50px;
+  margin-left: -500px;
+}
+
+#diagram {
+  margin-top: 10px;
+  height: 120px;
+  width: 130px;
+}
+
+div.diagram {
+  margin-top: 10px;
+  margin-left: 800px;
+  height: 100px;
+  width: 400px;
+  padding-top: 40px;
+}
+
+div.tekst {
+  float: right;
+}
+
+div.mineprosjekter {
+  float: left;
+  margin-top: 0px;
+  margin-left: 240px;
+}
+
+#overskrift {
+  font-family: "Oswald", "Roboto", sans-serif;
+}
+
+div.prosjekt {
+  margin-left: 0px;
+  height: 300px;
+  width: 500px;
+  background-color: #d8e6f3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  text-align: center;
+}
+
+a.prosjekter {
+  text-decoration: none;
+}
+
+h2.prosjektnavn {
+  padding-top: 125px;
+  text-decoration: none;
+  color: black;
+}
+
+div.prosjekt2 {
+  margin-left: 530px;
+  margin-top: -300px;
+  height: 300px;
+  width: 500px;
+  background-color: #d8e6f3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  text-align: center;
+  float: left;
+}
+
+h2.prosjektnavn2 {
+  padding-top: 108px;
+  text-decoration: none;
+  color: black;
+}
+
+div.prosjekt4 {
+  margin-left: 530px;
+  margin-top: -300px;
+  height: 300px;
+  width: 500px;
+  background-color: #d8e6f3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+  text-align: center;
+  float: left;
+}
+
+h2.prosjektnavn4 {
+  padding-top: 108px;
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  text-decoration: none;
+  color: black;
+}
